@@ -1,0 +1,11 @@
+datasource:
+  url: jdbc:sqlserver://localhost:1433;database=msjdbc
+  username: sa
+  password: '!Passw0rd'
+  driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+buildDatasource:
+  url: jdbc:sqlserver://localhost:1433;database=master
+  username: sa
+  password: '!Passw0rd'
+  driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
